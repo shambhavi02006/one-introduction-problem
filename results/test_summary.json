@@ -1,0 +1,790 @@
+{
+  "policies": {
+    "abl_greedy_allocation": {
+      "episodes": 120,
+      "invalid": 0,
+      "msmi_per_100_arrived_members": 0.3125,
+      "coverage": 0.3399583333333333,
+      "mutual_acceptances_per_100": 5.375,
+      "ask_cost": 226.38333333333333,
+      "assignments": 74.16666666666667,
+      "dates": 8.358333333333333,
+      "missing_feedback": 39.666666666666664,
+      "expected_msmi_per_100": 0.37065825890533083,
+      "edge_utilisation": 0.8423614981429579,
+      "unserved_members": 132.00833333333333
+    },
+    "abl_list_order_asks": {
+      "episodes": 120,
+      "invalid": 0,
+      "msmi_per_100_arrived_members": 0.45833333333333337,
+      "coverage": 0.33975,
+      "mutual_acceptances_per_100": 5.466666666666667,
+      "ask_cost": 206.17499999999998,
+      "assignments": 73.33333333333333,
+      "dates": 8.441666666666666,
+      "missing_feedback": 38.891666666666666,
+      "expected_msmi_per_100": 0.35805399663848864,
+      "edge_utilisation": 0.8356062017577898,
+      "unserved_members": 132.05
+    },
+    "abl_no_clarification": {
+      "episodes": 120,
+      "invalid": 0,
+      "msmi_per_100_arrived_members": 0.09166666666666667,
+      "coverage": 0.11649999999999999,
+      "mutual_acceptances_per_100": 1.4,
+      "ask_cost": 0,
+      "assignments": 20.458333333333332,
+      "dates": 2.2,
+      "missing_feedback": 10.433333333333334,
+      "expected_msmi_per_100": 0.0948043559017348,
+      "edge_utilisation": 0.22701515895488147,
+      "unserved_members": 176.7
+    },
+    "abl_no_soft_asks": {
+      "episodes": 120,
+      "invalid": 0,
+      "msmi_per_100_arrived_members": 0.37916666666666665,
+      "coverage": 0.341125,
+      "mutual_acceptances_per_100": 5.5,
+      "ask_cost": 197.025,
+      "assignments": 74.02499999999999,
+      "dates": 8.6,
+      "missing_feedback": 38.81666666666667,
+      "expected_msmi_per_100": 0.36061976036958526,
+      "edge_utilisation": 0.8424405748417462,
+      "unserved_members": 131.775
+    },
+    "abl_reservation_values": {
+      "episodes": 120,
+      "invalid": 0,
+      "msmi_per_100_arrived_members": 0.3625,
+      "coverage": 0.340125,
+      "mutual_acceptances_per_100": 5.316666666666666,
+      "ask_cost": 226.51666666666665,
+      "assignments": 73.46666666666667,
+      "dates": 8.425,
+      "missing_feedback": 39.083333333333336,
+      "expected_msmi_per_100": 0.36225026597885357,
+      "edge_utilisation": 0.8372958150043088,
+      "unserved_members": 131.975
+    },
+    "abl_static_model": {
+      "episodes": 120,
+      "invalid": 0,
+      "msmi_per_100_arrived_members": 0.35,
+      "coverage": 0.33949999999999997,
+      "mutual_acceptances_per_100": 5.3625,
+      "ask_cost": 225.775,
+      "assignments": 73.80833333333334,
+      "dates": 8.35,
+      "missing_feedback": 38.925,
+      "expected_msmi_per_100": 0.3615502307035355,
+      "edge_utilisation": 0.8401004517379964,
+      "unserved_members": 132.1
+    },
+    "greedy": {
+      "episodes": 120,
+      "invalid": 0,
+      "msmi_per_100_arrived_members": 0.44166666666666665,
+      "coverage": 0.3378333333333333,
+      "mutual_acceptances_per_100": 5.104166666666667,
+      "ask_cost": 206.17499999999998,
+      "assignments": 74.00833333333333,
+      "dates": 7.633333333333334,
+      "missing_feedback": 38.325,
+      "expected_msmi_per_100": 0.35737175464344534,
+      "edge_utilisation": 0.8391523526588597,
+      "unserved_members": 132.43333333333334
+    },
+    "no_asks": {
+      "episodes": 120,
+      "invalid": 0,
+      "msmi_per_100_arrived_members": 0.07916666666666666,
+      "coverage": 0.11633333333333333,
+      "mutual_acceptances_per_100": 1.4458333333333333,
+      "ask_cost": 0,
+      "assignments": 20.6,
+      "dates": 2.183333333333333,
+      "missing_feedback": 10.55,
+      "expected_msmi_per_100": 0.09432433285618058,
+      "edge_utilisation": 0.22815792602363172,
+      "unserved_members": 176.73333333333335
+    },
+    "ours": {
+      "episodes": 120,
+      "invalid": 0,
+      "msmi_per_100_arrived_members": 0.37083333333333335,
+      "coverage": 0.340125,
+      "mutual_acceptances_per_100": 5.370833333333334,
+      "ask_cost": 226.01666666666665,
+      "assignments": 73.91666666666667,
+      "dates": 8.508333333333333,
+      "missing_feedback": 39.291666666666664,
+      "expected_msmi_per_100": 0.3626646208117378,
+      "edge_utilisation": 0.8411178146896428,
+      "unserved_members": 131.975
+    },
+    "random": {
+      "episodes": 120,
+      "invalid": 0,
+      "msmi_per_100_arrived_members": 0.35833333333333334,
+      "coverage": 0.3400416666666667,
+      "mutual_acceptances_per_100": 4.945833333333333,
+      "ask_cost": 206.17499999999998,
+      "assignments": 74.26666666666667,
+      "dates": 7.591666666666667,
+      "missing_feedback": 39.666666666666664,
+      "expected_msmi_per_100": 0.3617575707524992,
+      "edge_utilisation": 0.8432259336408683,
+      "unserved_members": 131.99166666666667
+    }
+  },
+  "paired": {
+    "abl_greedy_allocation -> ours minus it": {
+      "msmi_per_100_arrived_members": {
+        "diff": 0.058333333333333334,
+        "ci95": [
+          0.004166666666666665,
+          0.11666666666666667
+        ],
+        "wilcoxon_p": 0.05223688932558473
+      },
+      "expected_msmi_per_100": {
+        "diff": -0.007993638093593037,
+        "ci95": [
+          -0.014680382603421492,
+          -0.001655275698048186
+        ],
+        "wilcoxon_p": 0.10400235340601484
+      },
+      "assignments": {
+        "diff": -0.25,
+        "ci95": [
+          -1.0333333333333334,
+          0.5166666666666666
+        ],
+        "wilcoxon_p": 0.7397623088574911
+      },
+      "mutual_acceptances_per_100": {
+        "diff": -0.004166666666666668,
+        "ci95": [
+          -0.22083333333333333,
+          0.21666666666666665
+        ],
+        "wilcoxon_p": 0.9150421482923169
+      }
+    },
+    "abl_list_order_asks -> ours minus it": {
+      "msmi_per_100_arrived_members": {
+        "diff": -0.08750000000000001,
+        "ci95": [
+          -0.17083333333333334,
+          -0.008333333333333331
+        ],
+        "wilcoxon_p": 0.05239608379606008
+      },
+      "expected_msmi_per_100": {
+        "diff": 0.004610624173249149,
+        "ci95": [
+          -0.004777037491430927,
+          0.014025220659309813
+        ],
+        "wilcoxon_p": 0.6354889917746812
+      },
+      "assignments": {
+        "diff": 0.5833333333333334,
+        "ci95": [
+          -0.35000000000000003,
+          1.475
+        ],
+        "wilcoxon_p": 0.19301630558944216
+      },
+      "mutual_acceptances_per_100": {
+        "diff": -0.09583333333333333,
+        "ci95": [
+          -0.3833333333333333,
+          0.19166666666666668
+        ],
+        "wilcoxon_p": 0.7574822663568604
+      }
+    },
+    "abl_no_clarification -> ours minus it": {
+      "msmi_per_100_arrived_members": {
+        "diff": 0.2791666666666667,
+        "ci95": [
+          0.20833333333333331,
+          0.3541666666666667
+        ],
+        "wilcoxon_p": 2.6690911039061763e-09
+      },
+      "expected_msmi_per_100": {
+        "diff": 0.267860264910003,
+        "ci95": [
+          0.25457186083559036,
+          0.28095083813193683
+        ],
+        "wilcoxon_p": 1.9719517121524354e-21
+      },
+      "assignments": {
+        "diff": 53.458333333333336,
+        "ci95": [
+          51.65,
+          55.25
+        ],
+        "wilcoxon_p": 1.9485339542211807e-21
+      },
+      "mutual_acceptances_per_100": {
+        "diff": 3.970833333333333,
+        "ci95": [
+          3.65,
+          4.3
+        ],
+        "wilcoxon_p": 6.466442428278875e-21
+      }
+    },
+    "abl_no_soft_asks -> ours minus it": {
+      "msmi_per_100_arrived_members": {
+        "diff": -0.008333333333333333,
+        "ci95": [
+          -0.05,
+          0.03333333333333333
+        ],
+        "wilcoxon_p": 0.6948866023724733
+      },
+      "expected_msmi_per_100": {
+        "diff": 0.0020448604421525397,
+        "ci95": [
+          -0.0015954371523855546,
+          0.005393021213983431
+        ],
+        "wilcoxon_p": 0.58015616499501
+      },
+      "assignments": {
+        "diff": -0.10833333333333334,
+        "ci95": [
+          -0.45833333333333337,
+          0.25
+        ],
+        "wilcoxon_p": 0.38166846628629103
+      },
+      "mutual_acceptances_per_100": {
+        "diff": -0.12916666666666668,
+        "ci95": [
+          -0.25416666666666665,
+          -0.004166666666666667
+        ],
+        "wilcoxon_p": 0.0878259069752186
+      }
+    },
+    "abl_reservation_values -> ours minus it": {
+      "msmi_per_100_arrived_members": {
+        "diff": 0.008333333333333333,
+        "ci95": [
+          -0.008333333333333333,
+          0.029166666666666667
+        ],
+        "wilcoxon_p": 0.4142161782425252
+      },
+      "expected_msmi_per_100": {
+        "diff": 0.00041435483288418954,
+        "ci95": [
+          -0.00241889374262713,
+          0.003084383081323414
+        ],
+        "wilcoxon_p": 0.0753637225006266
+      },
+      "assignments": {
+        "diff": 0.45,
+        "ci95": [
+          0.225,
+          0.6833333333333333
+        ],
+        "wilcoxon_p": 4.238299645382465e-05
+      },
+      "mutual_acceptances_per_100": {
+        "diff": 0.05416666666666667,
+        "ci95": [
+          1.1564823173178713e-18,
+          0.1125
+        ],
+        "wilcoxon_p": 0.06905930712123112
+      }
+    },
+    "abl_static_model -> ours minus it": {
+      "msmi_per_100_arrived_members": {
+        "diff": 0.020833333333333336,
+        "ci95": [
+          -0.03333333333333333,
+          0.07083333333333333
+        ],
+        "wilcoxon_p": 0.43330608608997356
+      },
+      "expected_msmi_per_100": {
+        "diff": 0.0011143901082022747,
+        "ci95": [
+          -0.003123297165508113,
+          0.005388170170962027
+        ],
+        "wilcoxon_p": 0.75175516524754
+      },
+      "assignments": {
+        "diff": 0.10833333333333335,
+        "ci95": [
+          -0.2916666666666667,
+          0.5
+        ],
+        "wilcoxon_p": 0.6028788652748933
+      },
+      "mutual_acceptances_per_100": {
+        "diff": 0.008333333333333333,
+        "ci95": [
+          -0.14166666666666666,
+          0.1625
+        ],
+        "wilcoxon_p": 0.8480251515788245
+      }
+    },
+    "greedy -> ours minus it": {
+      "msmi_per_100_arrived_members": {
+        "diff": -0.07083333333333333,
+        "ci95": [
+          -0.17083333333333334,
+          0.024999999999999998
+        ],
+        "wilcoxon_p": 0.2122229438324752
+      },
+      "expected_msmi_per_100": {
+        "diff": 0.005292866168292438,
+        "ci95": [
+          -0.0033266247986430235,
+          0.014060421825568716
+        ],
+        "wilcoxon_p": 0.3083263793993637
+      },
+      "assignments": {
+        "diff": -0.09166666666666666,
+        "ci95": [
+          -1.0083333333333333,
+          0.8083333333333333
+        ],
+        "wilcoxon_p": 0.9067236377534857
+      },
+      "mutual_acceptances_per_100": {
+        "diff": 0.26666666666666666,
+        "ci95": [
+          -0.008333333333333331,
+          0.5666666666666667
+        ],
+        "wilcoxon_p": 0.1133762771046124
+      }
+    },
+    "no_asks -> ours minus it": {
+      "msmi_per_100_arrived_members": {
+        "diff": 0.2916666666666667,
+        "ci95": [
+          0.2125,
+          0.37083333333333335
+        ],
+        "wilcoxon_p": 6.795946852892283e-09
+      },
+      "expected_msmi_per_100": {
+        "diff": 0.2683402879555572,
+        "ci95": [
+          0.2548255941611635,
+          0.28138096067202767
+        ],
+        "wilcoxon_p": 1.9719517121524354e-21
+      },
+      "assignments": {
+        "diff": 53.31666666666667,
+        "ci95": [
+          51.49166666666667,
+          55.108333333333334
+        ],
+        "wilcoxon_p": 1.9519722279332497e-21
+      },
+      "mutual_acceptances_per_100": {
+        "diff": 3.925,
+        "ci95": [
+          3.620833333333333,
+          4.2625
+        ],
+        "wilcoxon_p": 4.0759110940873305e-21
+      }
+    },
+    "random -> ours minus it": {
+      "msmi_per_100_arrived_members": {
+        "diff": 0.012499999999999999,
+        "ci95": [
+          -0.075,
+          0.1
+        ],
+        "wilcoxon_p": 0.6196003128201945
+      },
+      "expected_msmi_per_100": {
+        "diff": 0.0009070500592385825,
+        "ci95": [
+          -0.00832426938627915,
+          0.009955036525194269
+        ],
+        "wilcoxon_p": 0.7752942488862542
+      },
+      "assignments": {
+        "diff": -0.35,
+        "ci95": [
+          -1.3499999999999999,
+          0.6166666666666667
+        ],
+        "wilcoxon_p": 0.6301304441872604
+      },
+      "mutual_acceptances_per_100": {
+        "diff": 0.42500000000000004,
+        "ci95": [
+          0.14166666666666666,
+          0.7208333333333333
+        ],
+        "wilcoxon_p": 0.021075468205778356
+      }
+    }
+  },
+  "per_variant": {
+    "abl_greedy_allocation": {
+      "msmi_per_100_arrived_members": {
+        "development": 0.4,
+        "sparse": 0.1,
+        "cold_start": 0.3,
+        "delayed": 0.375,
+        "shift": 0.35,
+        "drift": 0.35
+      },
+      "expected_msmi_per_100": {
+        "development": 0.4577247583466989,
+        "sparse": 0.10834609633319513,
+        "cold_start": 0.37559937424485135,
+        "delayed": 0.43745970330255574,
+        "shift": 0.4098876961598727,
+        "drift": 0.43493192504481115
+      }
+    },
+    "abl_list_order_asks": {
+      "msmi_per_100_arrived_members": {
+        "development": 0.5,
+        "sparse": 0.125,
+        "cold_start": 0.55,
+        "delayed": 0.675,
+        "shift": 0.425,
+        "drift": 0.475
+      },
+      "expected_msmi_per_100": {
+        "development": 0.4410302112332795,
+        "sparse": 0.1164158152602638,
+        "cold_start": 0.3660899550564093,
+        "delayed": 0.4125147734484615,
+        "shift": 0.39392912804494984,
+        "drift": 0.41834409678756784
+      }
+    },
+    "abl_no_clarification": {
+      "msmi_per_100_arrived_members": {
+        "development": 0.1,
+        "sparse": 0.025,
+        "cold_start": 0.1,
+        "delayed": 0.175,
+        "shift": 0.05,
+        "drift": 0.1
+      },
+      "expected_msmi_per_100": {
+        "development": 0.12902311673778807,
+        "sparse": 0.03592179776640645,
+        "cold_start": 0.037687989870869215,
+        "delayed": 0.12471731644034262,
+        "shift": 0.11514148634817656,
+        "drift": 0.12633442824682595
+      }
+    },
+    "abl_no_soft_asks": {
+      "msmi_per_100_arrived_members": {
+        "development": 0.475,
+        "sparse": 0.1,
+        "cold_start": 0.35,
+        "delayed": 0.475,
+        "shift": 0.425,
+        "drift": 0.45
+      },
+      "expected_msmi_per_100": {
+        "development": 0.44093520945093223,
+        "sparse": 0.11127822729333911,
+        "cold_start": 0.3882759501467616,
+        "delayed": 0.419002154533924,
+        "shift": 0.38160889925125624,
+        "drift": 0.42261812154129835
+      }
+    },
+    "abl_reservation_values": {
+      "msmi_per_100_arrived_members": {
+        "development": 0.45,
+        "sparse": 0.075,
+        "cold_start": 0.325,
+        "delayed": 0.425,
+        "shift": 0.45,
+        "drift": 0.45
+      },
+      "expected_msmi_per_100": {
+        "development": 0.43915117017477395,
+        "sparse": 0.11167768921544403,
+        "cold_start": 0.38828121448929875,
+        "delayed": 0.4201073693988142,
+        "shift": 0.39017509293561814,
+        "drift": 0.4241090596591724
+      }
+    },
+    "abl_static_model": {
+      "msmi_per_100_arrived_members": {
+        "development": 0.375,
+        "sparse": 0.075,
+        "cold_start": 0.325,
+        "delayed": 0.475,
+        "shift": 0.45,
+        "drift": 0.4
+      },
+      "expected_msmi_per_100": {
+        "development": 0.4417995858747526,
+        "sparse": 0.11163398683624495,
+        "cold_start": 0.3937776122733524,
+        "delayed": 0.4149510062606143,
+        "shift": 0.3832165573091749,
+        "drift": 0.42392263566707383
+      }
+    },
+    "greedy": {
+      "msmi_per_100_arrived_members": {
+        "development": 0.5,
+        "sparse": 0.175,
+        "cold_start": 0.55,
+        "delayed": 0.475,
+        "shift": 0.45,
+        "drift": 0.5
+      },
+      "expected_msmi_per_100": {
+        "development": 0.4384978169508878,
+        "sparse": 0.11479781123279706,
+        "cold_start": 0.36650792369190105,
+        "delayed": 0.41571055351047553,
+        "shift": 0.39324036322070166,
+        "drift": 0.4154760592539089
+      }
+    },
+    "no_asks": {
+      "msmi_per_100_arrived_members": {
+        "development": 0.075,
+        "sparse": 0.025,
+        "cold_start": 0.125,
+        "delayed": 0.1,
+        "shift": 0.075,
+        "drift": 0.075
+      },
+      "expected_msmi_per_100": {
+        "development": 0.12624712175560235,
+        "sparse": 0.03651500858984917,
+        "cold_start": 0.03982579151985988,
+        "delayed": 0.1281957426516025,
+        "shift": 0.11211941224617299,
+        "drift": 0.12304292037399664
+      }
+    },
+    "ours": {
+      "msmi_per_100_arrived_members": {
+        "development": 0.475,
+        "sparse": 0.075,
+        "cold_start": 0.325,
+        "delayed": 0.45,
+        "shift": 0.45,
+        "drift": 0.45
+      },
+      "expected_msmi_per_100": {
+        "development": 0.4379515740241956,
+        "sparse": 0.11167768921544403,
+        "cold_start": 0.3868788829592032,
+        "delayed": 0.42256759512912456,
+        "shift": 0.3958609244629179,
+        "drift": 0.4210510590795415
+      }
+    },
+    "random": {
+      "msmi_per_100_arrived_members": {
+        "development": 0.3,
+        "sparse": 0.15,
+        "cold_start": 0.475,
+        "delayed": 0.525,
+        "shift": 0.425,
+        "drift": 0.275
+      },
+      "expected_msmi_per_100": {
+        "development": 0.44995640237885215,
+        "sparse": 0.11657176396737978,
+        "cold_start": 0.36597846060303824,
+        "delayed": 0.4190614812765956,
+        "shift": 0.3926385964221782,
+        "drift": 0.4263387198669513
+      }
+    }
+  },
+  "waits": {
+    "ours": {
+      "development": {
+        "median_wait_days": 3,
+        "p90_wait_days": 14
+      },
+      "sparse": {
+        "median_wait_days": 1.0,
+        "p90_wait_days": 14
+      },
+      "cold_start": {
+        "median_wait_days": 5.0,
+        "p90_wait_days": 17
+      },
+      "delayed": {
+        "median_wait_days": 3,
+        "p90_wait_days": 14
+      },
+      "shift": {
+        "median_wait_days": 3.0,
+        "p90_wait_days": 14
+      },
+      "drift": {
+        "median_wait_days": 3,
+        "p90_wait_days": 14
+      }
+    },
+    "greedy": {
+      "development": {
+        "median_wait_days": 4,
+        "p90_wait_days": 16
+      },
+      "sparse": {
+        "median_wait_days": 4.0,
+        "p90_wait_days": 15
+      },
+      "cold_start": {
+        "median_wait_days": 7.0,
+        "p90_wait_days": 20
+      },
+      "delayed": {
+        "median_wait_days": 4,
+        "p90_wait_days": 16
+      },
+      "shift": {
+        "median_wait_days": 4,
+        "p90_wait_days": 16
+      },
+      "drift": {
+        "median_wait_days": 4,
+        "p90_wait_days": 16
+      }
+    }
+  },
+  "non_service": {
+    "ours": {
+      "development": {
+        "arrived_members": 200,
+        "served_members": 77.55,
+        "unserved_members": 122.45,
+        "unserved_declined_hard": 65.35,
+        "unserved_no_feasible_partner": 55.85,
+        "unserved_policy_or_capacity": 1.25
+      },
+      "sparse": {
+        "arrived_members": 200,
+        "served_members": 33.1,
+        "unserved_members": 166.9,
+        "unserved_declined_hard": 65.7,
+        "unserved_no_feasible_partner": 101,
+        "unserved_policy_or_capacity": 0.2
+      },
+      "cold_start": {
+        "arrived_members": 200,
+        "served_members": 65.3,
+        "unserved_members": 134.7,
+        "unserved_declined_hard": 80.05,
+        "unserved_no_feasible_partner": 53.45,
+        "unserved_policy_or_capacity": 1.2
+      },
+      "delayed": {
+        "arrived_members": 200,
+        "served_members": 77.15,
+        "unserved_members": 122.85,
+        "unserved_declined_hard": 65.35,
+        "unserved_no_feasible_partner": 55.85,
+        "unserved_policy_or_capacity": 1.65
+      },
+      "shift": {
+        "arrived_members": 200,
+        "served_members": 77.5,
+        "unserved_members": 122.5,
+        "unserved_declined_hard": 65.35,
+        "unserved_no_feasible_partner": 55.85,
+        "unserved_policy_or_capacity": 1.3
+      },
+      "drift": {
+        "arrived_members": 200,
+        "served_members": 77.55,
+        "unserved_members": 122.45,
+        "unserved_declined_hard": 65.35,
+        "unserved_no_feasible_partner": 55.85,
+        "unserved_policy_or_capacity": 1.25
+      }
+    },
+    "greedy": {
+      "development": {
+        "arrived_members": 200,
+        "served_members": 77.05,
+        "unserved_members": 122.95,
+        "unserved_declined_hard": 65.35,
+        "unserved_no_feasible_partner": 55.85,
+        "unserved_policy_or_capacity": 1.75
+      },
+      "sparse": {
+        "arrived_members": 200,
+        "served_members": 33,
+        "unserved_members": 167,
+        "unserved_declined_hard": 65.7,
+        "unserved_no_feasible_partner": 101,
+        "unserved_policy_or_capacity": 0.3
+      },
+      "cold_start": {
+        "arrived_members": 200,
+        "served_members": 64.6,
+        "unserved_members": 135.4,
+        "unserved_declined_hard": 80.05,
+        "unserved_no_feasible_partner": 53.45,
+        "unserved_policy_or_capacity": 1.9
+      },
+      "delayed": {
+        "arrived_members": 200,
+        "served_members": 76.65,
+        "unserved_members": 123.35,
+        "unserved_declined_hard": 65.35,
+        "unserved_no_feasible_partner": 55.85,
+        "unserved_policy_or_capacity": 2.15
+      },
+      "shift": {
+        "arrived_members": 200,
+        "served_members": 77.05,
+        "unserved_members": 122.95,
+        "unserved_declined_hard": 65.35,
+        "unserved_no_feasible_partner": 55.85,
+        "unserved_policy_or_capacity": 1.75
+      },
+      "drift": {
+        "arrived_members": 200,
+        "served_members": 77.05,
+        "unserved_members": 122.95,
+        "unserved_declined_hard": 65.35,
+        "unserved_no_feasible_partner": 55.85,
+        "unserved_policy_or_capacity": 1.75
+      }
+    }
+  }
+}

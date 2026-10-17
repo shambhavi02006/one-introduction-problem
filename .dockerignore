@@ -1,0 +1,6 @@
+results
+experiments
+tests
+docs
+*.md
+__pycache__

@@ -1,0 +1,26 @@
+{
+  "development": {
+    "static": {
+      "held_out_responses": 435,
+      "log_loss": 0.6648419221927422,
+      "brier": 0.23585433575060133
+    },
+    "adapted": {
+      "held_out_responses": 435,
+      "log_loss": 0.6811508626455643,
+      "brier": 0.2441665491739795
+    }
+  },
+  "shift": {
+    "static": {
+      "held_out_responses": 482,
+      "log_loss": 0.6957195429025155,
+      "brier": 0.25125527416744853
+    },
+    "adapted": {
+      "held_out_responses": 482,
+      "log_loss": 0.6675912940321295,
+      "brier": 0.2379050054796763
+    }
+  }
+}

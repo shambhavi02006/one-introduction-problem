@@ -1,0 +1,3 @@
+# Optional: used only to solve very large dense components exactly (Edmonds' blossom).
+# The policy is correct without it (exact DP for small components, greedy fallback otherwise).
+networkx==3.6.1
